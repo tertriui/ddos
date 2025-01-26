@@ -13,11 +13,11 @@ from threading import Thread
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '8189462386:AAEv6sQGQryHaQGJYRIniI1yZXxNgtdeFbo'
+TOKEN = '5742544977:AAGO-g6xk5J3mXCJPzCfgJmzAyQYO1TmKQA'
 MONGO_URI = 'mongodb+srv://rishi:ipxkingyt@rishiv.ncljp.mongodb.net/?retryWrites=true&w=majority&appName=rishiv'
-FORWARD_CHANNEL_ID = -1672212552
-CHANNEL_ID = -1672212552
-error_channel_id = -1672212552
+FORWARD_CHANNEL_ID = -2434698883
+CHANNEL_ID = -2434698883
+error_channel_id = -2434698883
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
