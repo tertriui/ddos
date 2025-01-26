@@ -16,11 +16,11 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7886448138:AAF8EuhEE4_dTDAsht69vMkCfX2DTmVZoFQ'
+TOKEN = '7688615265:AAGrhiE9tHOfiAx4J5T0-24OET850k-XmK8'
 MONGO_URI = 'mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal'
-FORWARD_CHANNEL_ID = -1004655811793
-CHANNEL_ID = -1004655811793
-error_channel_id = -1004655811793
+FORWARD_CHANNEL_ID = -1002434698883
+CHANNEL_ID = -1002434698883
+error_channel_id = -1002434698883
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
@@ -308,7 +308,7 @@ def owner_command(message):
     response = (
         "*👤 **Owner Information:**\n\n"
         "For any inquiries, support, or collaboration opportunities, don't hesitate to reach out to the owner:\n\n"
-        "📩 **Telegram:** @DEADWICKYT\n\n"
+        "📩 **Telegram:** @join_undefeated_cheats\n\n"
         "💬 **We value your feedback!** Your thoughts and suggestions are crucial for improving our service and enhancing your experience.\n\n"
         "🌟 **Thank you for being a part of our community!** Your support means the world to us, and we’re always here to help!*\n"
     )
@@ -317,7 +317,7 @@ def owner_command(message):
 @bot.message_handler(commands=['start'])
 def start_message(message):
     try:
-        bot.send_message(message.chat.id, "*🌍 WELCOME TO DEADWICK DDOS BOT!* 🎉\n\n"
+        bot.send_message(message.chat.id, "*🌍 WELCOME TO DEAD WICK DDOS BOT!* 🎉\n\n"
                                            "*🚀 Get ready to dive into the action!*\n\n"
                                            "*💣 To unleash your power, use the* `/attack` *command followed by your target's IP and port.* ⚔️\n\n"
                                            "*🔍 Example: After* `/attack`, *enter:* `ip port duration`.\n\n"
@@ -332,7 +332,7 @@ def start_message(message):
 if __name__ == "__main__":
     asyncio_thread = Thread(target=start_asyncio_thread, daemon=True)
     asyncio_thread.start()
-    logging.info("Starting Codespace activity keeper and Telegram bot...")
+    logging.info("Starting Dead Wick Ddos Bot")
     while True:
         try:
             bot.polling(none_stop=True)
