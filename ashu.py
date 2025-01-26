@@ -278,8 +278,8 @@ def handle_message(message):
             response = "*No account information found. Please contact the administrator.*"
         
         bot.reply_to(message, response, parse_mode='Markdown')
-    elif message.text == "🤖STRESSER SERVER":
-        bot.reply_to(message, "*🤖STRESSER SERVER RUNNING....*", parse_mode='Markdown')
+    elif message.text == "🤖ASHU SERVER":
+        bot.reply_to(message, "*🤖ASHU SERVER RUNNING....*", parse_mode='Markdown')
     elif message.text == "Contact admin✔️":
         bot.reply_to(message, "*Contact admin selected*", parse_mode='Markdown')
     else:
@@ -288,7 +288,7 @@ def handle_message(message):
 if __name__ == "__main__":
     asyncio_thread = Thread(target=start_asyncio_thread, daemon=True)
     asyncio_thread.start()
-    logging.info("KRISHNA SERVER RUNNING.....")
+    logging.info("ASHU SERVER RUNNING.....")
     while True:
         try:
             bot.polling(none_stop=True)
