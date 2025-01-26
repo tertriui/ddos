@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
 
     pthread_t threads[max_threads];
 
-    printf("MADE BY @SOULCRACKS %s:%d for %d seconds with %d threads...\n",
+    printf("MADE BY @Cocog470 %s:%d for %d seconds with %d threads...\n",
            params.ip, params.port, params.duration, max_threads);
 
     for (int i = 0; i < max_threads; i++) {
@@ -72,7 +72,7 @@ int main(int argc, char* argv[]) {
         pthread_join(threads[i], NULL);
     }
 
-    printf("FUCKED ATTACK @DEADWICKYT HOST IP %s on port %d for %d seconds\n",
+    printf("FUCKED ATTACK @Cocog470 HOST IP %s on port %d for %d seconds\n",
            params.ip, params.port, params.duration);
 
     return 0;
